@@ -23,5 +23,7 @@ public class Main {
         String department = departments[x];
 
         System.out.printf("%s.%s@%s.%s.nya", firstName.toLowerCase(), lastName.toLowerCase(), department.toLowerCase(), company.toLowerCase());
+        Email email = new Email(firstName, lastName, department, company);
+        System.out.println(email.getPassword());
     }
 }
