@@ -43,6 +43,10 @@ public class Email {
         return password;
     }
 
+    public void setPassword(String password) {
+        this.password = new StringBuilder(password);
+    }
+
     public String getDepartment() {
         return department;
     }
